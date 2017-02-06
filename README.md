@@ -4,4 +4,4 @@ My idea was to connect the LED to a smart flush-mounted controller to turn it on
  
 Piece 1 - The LED
 
-Out-of-the box the LYT8266 isn't doing anything and has to be flashed with an appropriate firmware, e.g. this one here to come into operation. After trying the Souliss firmware, I decided to flash NodeMCU onto the bulb since I'm not familiar to the Arduino environment and since I wanted to have a possibility to program it via Lua scripts. NodeMCU works for the LYT8266 since there is an ESP-03, that controls the GPIOs, soldered onto it .
+Out-of-the box the LYT8266 isn't doing anything and has to be flashed with an appropriate firmware, e.g. the one from Souliss to come into operation. After trying the Souliss firmware, I decided to flash NodeMCU onto the bulb since I'm not familiar to the Arduino environment and since I wanted to have a possibility to program it via Lua scripts. NodeMCU works for the LYT8266 since there is an ESP-03, that controls the GPIOs, soldered onto it.
