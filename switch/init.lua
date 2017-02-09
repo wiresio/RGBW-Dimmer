@@ -2,7 +2,7 @@ wifi.setmode(wifi.SOFTAP)
 maccfg =
 {
     ssid="lyt8266",
-    pwd="!felizchaparron"
+    pwd="password"
 }
 wifi.ap.config(maccfg)
 ifcfg =
