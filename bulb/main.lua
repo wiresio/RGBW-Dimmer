@@ -6,7 +6,6 @@ pwm.setup(7, 500, 512) -- red
 pwm.setup(6, 500, 512) -- green
 pwm.setup(5, 500, 512) -- blue
 pwm.setup(4, 500, 512) -- white
-gpio.mode(8, gpio.OUTPUT) -- enable
 pwm.start(7)
 pwm.start(6)
 pwm.start(5)
@@ -34,7 +33,6 @@ function switch(payload, opts)
 	return
 end
 led(vr, vg, vb)
-gpio.write(8, gpio.HIGH)
 -- COAP server
 cs=coap.Server()
 cs:listen(5683)
