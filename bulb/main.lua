@@ -32,7 +32,7 @@ function switch(payload, opts)
 	end
 	return
 end
-led(vr, vg, vb)
+
 -- COAP server
 cs=coap.Server()
 cs:listen(5683)
